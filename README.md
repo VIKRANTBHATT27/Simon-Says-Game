@@ -8,3 +8,6 @@ It Enhanced my Skills in JavaScript specially about DOM Manipulation.
 Simon Says Game Javascript file contains different function like gameFlash, levelUp, userFlash, check, btnClick and GameOver.
 The Game uses a for loop on UserEnteringSequenceArray and for each button press it checks wheather it follows the correct order. The correct order is stored in GameSequenceArray and if any Button Sequence is miss matched.
 The Game Ends with a call to GameOver function.
+
+I add some Extra Stuff, if someone wants to modify the Game.
+I am open for review, DM me on my LinkedIn
