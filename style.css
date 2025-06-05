@@ -1,0 +1,244 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body{
+     /* background-color: #2A4759; */
+     background-color: #0D0D0D ;
+     /* background-color: lightpink; */
+     margin: 20px;
+     position: relative;
+     justify-content: center;
+}
+h1{
+     color: #DDDDDD;
+     /* border: 2px solid #DDDDDD; */
+     padding: 10px;
+     display: flex;
+
+     /* text-shadow: 0 0 10px cyan; */
+
+     position: absolute;
+     bottom: 13%;
+     right: 1.5%;
+     justify-self : flex-end;
+}
+
+h3{
+     color: #DDDDDD;
+     position: relative;
+     justify-self : center;
+}
+
+.score{
+     display: flex;
+     justify-self: flex-end;
+     padding: 5px;
+
+     font-weight: 500;
+     font-size: 2em;
+     color: aquamarine;
+     border: 2px dashed #DDDDDD;
+     border-radius: 10px;
+
+     position: relative;
+     top: 3%;
+     right: 2%;
+}
+
+.buttonDiv{
+     display: flex;
+     justify-content: center;
+     /* margin: 50px; */
+
+     position: absolute;
+     bottom: 5%;
+     right: 3%;
+     justify-content: flex-end;
+}
+
+#start{
+     height: 50px;
+     width: 100px;
+     background-color: transparent;
+     border: 2px solid lightseagreen;
+     border-radius: 25px;
+     color: lightseagreen;
+     margin: 5px;
+     letter-spacing: 1px;
+     transition: all 0.5s ease-in-out;
+}
+
+#start:hover {
+     border-color: transparent;
+     color: black;
+     font-weight: bolder;
+     font-size: large;
+     background-color: lightseagreen;
+     transition: all 0.5s ease-in-out;
+}
+
+#end{
+     height: 50px;
+     width: 100px;
+     background-color: transparent;
+     border: 2px solid orangered;
+     border-radius: 25px;
+     color: orangered;
+     margin: 5px;
+     letter-spacing: 1px;
+     transition: all 0.5s ease-in-out;
+}
+
+#end:hover{
+     border-color: transparent;
+     color: black;
+     font-weight: bolder;
+     font-size: large;
+     background-color: orangered;
+     transition: all 0.5s ease-in-out; 
+}
+
+.container{
+     height: 90vh;
+     width: 90vw;
+
+     border: 2px solid #EEEEEE;
+     border-radius: 2px;
+     margin: 20px;
+
+     position: relative;
+     justify-self: center;
+     /* justify-items: center; */
+     /* align-content: center; */
+}
+
+.mainComponents{
+     height: 300px;
+     width: 300px;
+     background-color: transparent;
+     border: 2px solid #DDDDDD;
+     margin: 5px;
+
+     opacity: 10%;
+
+     position: relative;
+     left: 10%;
+     
+     z-index: 1;
+     
+     /* display: flex; */
+     /* align-self: center; */
+
+     /* border-radius: 20% 0% 80% 0%; */
+}
+
+/* .mainComponents:hover {
+     border-color: #F79B72;
+} */
+
+#first{
+     border-radius: 95% 3% 10% 3%;
+     background-color: #fe4450;
+     transition: opacity 0.85s ease-in-out;
+}
+
+#second{
+     border-radius: 3% 95% 3% 10%;
+     background-color: #FFD700;
+     transition: opacity 0.85s ease-in-out;
+}
+
+#third{
+     border-radius: 3% 10% 3% 95%;
+     background-color: #00FA9A;
+     transition: opacity 0.85s ease-in-out;
+}
+
+#fourth{
+     border-radius: 10% 3% 95% 3%;
+     background-color: #1E90FF;
+     transition: opacity 0.85s ease-in-out;
+}
+
+
+.whiteFlash {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 60px #EEEEEE;
+}
+
+.redFlash {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 40px #FF1493;
+}
+.yellowFlash {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 40px #CCFF00;
+}
+.greenFlash {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 40px #39FF14;
+}
+.blueFlash {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 40px #1e1eff;
+}
+
+#redAngryBirdImg {
+     height: 50%;
+     position: relative;
+     left: 10%;
+     top: 15%;
+
+     /* box-shadow: 0 0 8px black; */
+}
+#yellowAngryBirdImg {
+     height: 50%;
+     position: relative;
+     right: 10%;
+     top: 15%;
+
+     /* box-shadow: 0 0 8px black; */
+}
+#greenAngryBirdImg {
+     height: 50%;
+     position: relative;
+     left: 10%;
+     bottom: 15%;
+
+     /* box-shadow: 0 0 8px black; */
+}
+#blueAngryBirdImg {
+     height: 50%;
+     position: relative;
+     right: 10%;
+     bottom: 15%;
+
+     /* box-shadow: 0 0 8px black; */
+}
+
+.GameEnd {
+     opacity: 10%;
+     transition: opacity 0.5s ease-out;
+}
+
+p{
+     /* background: linear-gradient(45deg, blue, orangered); */
+     border-radius: 8px;
+     padding-left: 10px;
+     padding-right: 10px;
+
+     color: aquamarine;
+
+     font-size: 2em;
+
+     position: absolute;
+     z-index: 2;
+
+     opacity: 100%;
+
+     left: 21%;
+     top: 48%;
+
+     transition: opacity 0.75s ease-in-out;
+}
